@@ -13,11 +13,11 @@
   </head>
   <body>
     <section>
-      <div class="flex flex-row justify-between mt-8 mx-16">
+      <div class="flex flex-row justify-between mt-8 mx-2 md:mx-16">
         <div class="flex flex-col">
-          <div class="text-gray-950 font-light"> <%= it.key %> </div>
-          <div class="text-slate-900 font-extrabold text-5xl">
-            <h1 class="text-5xl leading-tight">
+          <div class="text-gray-950 font-light"><%= it.key %></div>
+          <div class="text-slate-900 font-extrabold">
+            <h1 class="text-xl leading-tight heading md:text-5xl lg:text-5xl">
               <%= it.activity %>
             </h1>
           </div>
@@ -30,9 +30,9 @@
     </section>
 
     <section>
-      <div class="flex flex-row justify-between">
-        <div class="flex flex-col mx-16 mt-8">
-          <h1 class="text-lg font-semibold text-slate-900 mb-2">
+      <div class="flex flex-col justify-between md:flex-row lg:flex-row">
+        <div class="flex flex-col mt-8 mx-2 md:mx-16">
+          <h1 class="text-md font-semibold text-slate-900 mb-2 md:text-lg">
             OUTDOOR & SPORTING GOODS COMPANY
           </h1>
           <button class="rounded-none bg-orange-600 text-white mt-4 w-48 h-12">
@@ -45,12 +45,16 @@
           <div class="flex flex-row mt-6 space space-x-12">
             <div class="flex flex-col">
               <div class="text-gray-950 font-extralight text-xs">MORE THAN</div>
-              <div class="text-6xl leading-tight font-extrabold">50+</div>
+              <div class="text-2xl leading-tight font-extrabold md:text-6xl">
+                50+
+              </div>
               <div class="text-base text-slate-900 mb-2">ADVENTURE PRODUCT</div>
             </div>
             <div class="flex flex-col">
               <div class="text-gray-950 font-extralight text-xs">MORE THAN</div>
-              <div class="text-6xl leading-tight font-extrabold">75+</div>
+              <div class="text-2xl leading-tight font-extrabold md:text-6xl">
+                75+
+              </div>
               <div class="text-base text-slate-900 mb-2">
                 OUTLETS IN INDONESIA
               </div>
@@ -86,12 +90,12 @@
 
     <section>
       <footer>
-        <div class="flex flex-row mx-auto space-x-16 mx-16">
-          <div class="flex flex-col mx-32 py-8">
+        <div class="flex flex-row justify-start md:space-x-16 md:mx-16">
+          <div class="flex flex-col mx-8 py-8 justify-start md:mx-32">
             <h1 class="text-white font-extralight text-xs">ACCESSIBILITY</h1>
             <p class="text-white font-extrabold text-lg"><%= it.accessibility %></p>
           </div>
-          <div class="flex flex-col mx-16 py-8">
+          <div class="flex flex-col py-8 justify-start">
             <h1 class="text-white font-extralight text-xs">TYPE</h1>
             <p class="text-white font-extrabold text-lg">SOCIAL</p>
           </div>
@@ -100,3 +104,4 @@
     </section>
   </body>
 </html>
+

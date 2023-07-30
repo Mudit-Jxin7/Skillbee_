@@ -13,3 +13,9 @@ footer {
 .heading {
   max-width: 500px;
 }
+
+@media (max-width: 500px) {
+  .heading {
+    max-width: 300px;
+  }
+}
