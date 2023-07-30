@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 import axios from "axios";
 
-interface ActivityData {
+export interface ActivityData {
   key: string;
   activity: string;
   price: number;
@@ -11,12 +11,12 @@ interface ActivityData {
 }
 
 const API_URL = "https://www.boredapi.com/api/activity";
-const PAGES_COUNT = 10;
+export const PAGES_COUNT = 10;
 
 // Render the template
 const eta = new Eta({ views: path.join(__dirname, "templates") });
 
-async function fetchDataFromApi(): Promise<ActivityData> {
+export async function fetchDataFromApi(): Promise<ActivityData> {
   try {
     const response = await axios.get(API_URL);
     return response.data;
@@ -26,7 +26,7 @@ async function fetchDataFromApi(): Promise<ActivityData> {
   }
 }
 
-async function fetchDataAndProcess(): Promise<void> {
+export async function fetchDataAndProcess(): Promise<void> {
   for (let i = 0; i < PAGES_COUNT; i++) {
     try {
       const data: ActivityData = await fetchDataFromApi();
