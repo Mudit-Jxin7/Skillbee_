@@ -11,12 +11,17 @@ ETA.js is a lightweight and powerful template engine that allows us to separate 
 - **Bored API Integration**: The application fetches random activity suggestions from the Bored API and displays them on the website in an appealing format.
 - **Responsive Design**: The web application is designed to be responsive and compatible with various devices, ensuring a consistent user experience across desktop and mobile platforms.
 
+## ScreenShots
+![image](https://github.com/Mudit-Jxin7/Skillbee_/assets/97677133/9cbfffb1-1460-4935-a050-bfbf97a2d4f2)
+![image](https://github.com/Mudit-Jxin7/Skillbee_/assets/97677133/283b1105-ceb6-4761-9e40-17b67b386f4a)
+
+
 ## Setup Instructions
 
 Follow these steps to set up the project locally on your machine:
 
-1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
-2. Navigate to the project directory: `cd project-name`
+1. Clone the repository: `git clone https://github.com/Mudit-Jxin7/Skillbee_.git`
+2. Navigate to the project directory: `cd Skillbee_`
 3. Install dependencies: `npm install`
 4. start typescript : `tcs main.ts`
 5. start javascript : `node main.js`
