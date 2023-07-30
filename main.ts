@@ -11,7 +11,7 @@ interface ActivityData {
 }
 
 const API_URL = "https://www.boredapi.com/api/activity";
-const PAGES_COUNT = 3;
+const PAGES_COUNT = 10;
 
 // Render the template
 const eta = new Eta({ views: path.join(__dirname, "templates") });

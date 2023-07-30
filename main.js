@@ -41,7 +41,7 @@ var path = require("path");
 var fs = require("fs");
 var axios_1 = require("axios");
 var API_URL = "https://www.boredapi.com/api/activity";
-var PAGES_COUNT = 3;
+var PAGES_COUNT = 10;
 // Render the template
 var eta = new eta_1.Eta({ views: path.join(__dirname, "templates") });
 function fetchDataFromApi() {
