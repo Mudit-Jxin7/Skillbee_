@@ -14,7 +14,7 @@ ETA.js is a lightweight and powerful template engine that allows us to separate 
 ## ScreenShots
 ![image](https://github.com/Mudit-Jxin7/Skillbee_/assets/97677133/9cbfffb1-1460-4935-a050-bfbf97a2d4f2)
 ![image](https://github.com/Mudit-Jxin7/Skillbee_/assets/97677133/283b1105-ceb6-4761-9e40-17b67b386f4a)
-
+![image](https://github.com/Mudit-Jxin7/Skillbee_/assets/97677133/8f9cd3e0-0fbf-446f-8359-1f293cb5fb57)
 
 ## Setup Instructions
 
