@@ -24,7 +24,7 @@ async function fetchDataAndProcess() {
         try {
             const data = await fetchDataFromApi();
             console.log(data);
-            const res = eta.render("./simple", { name: `${data.activity}` });
+            const res = eta.render("./simple", { key: `${data.key}`, activity: `${data.activity}`, price: `${data.price}`, accessibility: `${data.accessibility}` });
             const outputFilePath = path.join(__dirname, `output${i}.html`);
             fs.writeFileSync(outputFilePath, res);
         } catch (error) {
