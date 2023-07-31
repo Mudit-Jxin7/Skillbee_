@@ -11,6 +11,12 @@ ETA.js is a lightweight and powerful template engine that allows us to separate 
 - **Bored API Integration**: The application fetches random activity suggestions from the Bored API and displays them on the website in an appealing format.
 - **Responsive Design**: The web application is designed to be responsive and compatible with various devices, ensuring a consistent user experience across desktop and mobile platforms.
 
+## Links
+https://64c7bf179b7c3e04de554856--candid-kashata-50cd07.netlify.app/ <br>
+https://64c7bfa97c57f004fc23c445--stupendous-figolla-8d96a1.netlify.app/ </br>
+https://64c7c012476f5504e9c14b0a--idyllic-llama-81a9ca.netlify.app/ <br>
+https://64c7c04a7c57f004fc23c754--glittering-pixie-b53527.netlify.app/ <br>
+
 ## ScreenShots
 ![image](https://github.com/Mudit-Jxin7/Skillbee_/assets/97677133/9cbfffb1-1460-4935-a050-bfbf97a2d4f2)
 ![image](https://github.com/Mudit-Jxin7/Skillbee_/assets/97677133/283b1105-ceb6-4761-9e40-17b67b386f4a)
